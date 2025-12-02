@@ -8,6 +8,12 @@ The correct solution, when I found one, should always be in the last few cells.
 
 ## Setup
 
+1. Install dependencies
 ```bash
 uv sync --dev
+```
+
+2. Copy `.env.dist` to `.env` and fill in the values.
+```bash
+cp .env.dist .env
 ```
